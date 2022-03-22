@@ -4,21 +4,21 @@ const url = 'http://120.79.99.73:8081'
 
 export function categoryLevelTwoListByPage() {
   return request({
-    url: CODE.apiUrl() +'/category/categoryLevelTwoListByPage',//查询分类
+    url: CODE.apiUrl() +'/category/categoryLevelTwoListByPage',//查询分类 query classification
     method: 'get'
   })
 }
 
 export function categoryLevelTwoAdd(data) {
   return request({
-    url: CODE.apiUrl() +'/category/categoryLevelTwoAdd',//添加分类
+    url: CODE.apiUrl() +'/category/categoryLevelTwoAdd',//添加分类 add classification
     method: 'post',
     data
   })
 }
 export function updateCategoryLevelTwo(data) {
   return request({
-    url: CODE.apiUrl() +'/category/updateCategoryLevelTwo',//编辑分类
+    url: CODE.apiUrl() +'/category/updateCategoryLevelTwo',//编辑分类 edit classification
     method: 'post',
     data
   })
